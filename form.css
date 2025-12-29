@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    background-color: black;
+    color: white;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    text-align: center;
+    margin: 25px auto;
+    width: 500px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    padding: 25px 35px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    box-shadow: 10px 15px 150px #003556;
+
+}
+form{
+    margin: 15px auto;
+    width: 650px;
+}
+fieldset{
+    padding: 25px;
+    border: 5px solid #4a90e2;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+legend{
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #367bbe;
+    color: white;
+}   
+table{
+    width: 100%;
+    border-radius: 0;
+
+}
+td{
+    padding: 12px 8px;
+}
+label{
+    color: #ffd500;
+    font-weight: 900;
+    font-size: 15px;
+}
+input,
+textarea,
+select{
+    border-radius: 12px;
+    padding: 14px;
+    font-size: 15px;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"]{
+    width:100%;
+    background: linear-gradient(135deg, #2c5364,#203a43);
+    color: #ffffff;
+    font-weight: 600;
+    border: 2px solid #4a90e2;
+}
+.tooltip{
+    background-color: #239057;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 5px;
+    font-weight: 700;
+    display: none;
+}
+input:focus+ p{
+   display: block;
+
+}
